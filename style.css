@@ -1,0 +1,728 @@
+*
+{
+ padding: 0;
+ margin: 0;   
+}
+header{
+    background-color: rgba(0, 0, 0, 0.878);
+    display: inline-flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    margin-top: 1.5rem;
+    margin-left: 7rem;
+    padding-bottom: 1.3rem;
+}
+.menus {
+    display: inline-flex;
+    flex-direction: row;
+    align-content: center;
+    margin-right: 7rem ;
+}
+nav{
+    display: inline-flex;
+    flex-direction: row;
+    gap: 1rem;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+}
+
+
+.menus > nav a{
+    text-decoration: none;
+    color: white;
+}
+.hamburger{
+    margin-top: -10px;
+    margin-left: 1rem;
+}
+
+.bar1, .bar2{
+    width: 35px;
+    height: 3px;
+    background-color: #ffff;
+    margin-top:8px;
+    transition: 0.4s;
+    border-radius: 8px;
+  }
+.bar3{
+    width: 22px;
+    height: 3px;
+    background-color: #ffff;
+    margin-top:8px;
+    transition: 0.4s;
+    float: right;
+    border-radius: 8px;
+    
+}  
+  
+  .change .bar1 {
+    transform: translate(0, 11px) rotate(-45deg);
+  }
+  
+  .change .bar2 {opacity: 0;}
+  
+  .change .bar3 {
+    transform: translate(0, -11px) rotate(45deg);
+    width: 35px;
+  }
+
+ 
+  .banner{
+    background-color: rgba(0, 0, 0, 0.878); 
+    width: 100%;
+    height:100%;
+    display: inline-flex;
+    flex-direction: column;
+    align-content: stretch;
+    
+  }
+.banner-title{
+    margin-left: 7rem;
+    padding-top: 7rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 4.3rem;
+    font-weight: bold;
+    color: #ffff;
+    line-height: 1.2;
+}
+.banner-img{
+    margin-left: 60%;
+    width: 350px;
+    height: 200px;
+}
+/*-------------------------------------------------third Section-------------------------------------------*/
+.ourworkbanner{
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5rem;
+    font-size: 44px;
+}
+.scroll-card{
+   
+    display: flex;gap:20px;
+    flex-direction: column;
+    justify-content: center;
+    margin:10px;
+    align-items: flex-start;
+}
+main {
+    overflow-x: hidden;
+    display: flex;
+    margin-left: 7rem;
+    margin-top: 2rem;
+  }
+.works{
+    width: 450px;
+    height: 450px;
+    background-color:grey;
+}
+.works-name{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+.works-logo{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size:16px ;
+    margin-top: 0px;
+    color: red;
+    margin-top: -14px;
+}
+/*-------------------------------------------------Second Section-------------------------------------------*/
+
+#second{
+    display: flex;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: white;
+    height: 100%;
+    width: -webkit-fill-available;
+}
+.col{
+    float: left;
+    padding-top: 7rem;
+}
+#sec-col-1{
+    width: 65%;
+}
+#sec-col-2{
+    width: 35%;
+}
+#second::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+#sec-head{
+    font-size: 4rem;
+    margin-left: 7rem;
+}
+span#develop{
+    /*color: rgb(174, 23, 23);*/
+    background:  linear-gradient(to right, rgba(255,0,0,0.2), rgba(255,0,0,1));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    margin-left: 7rem;
+    font-weight: bolder;
+    font-size: 3rem;
+}
+
+#sec-para{
+    margin-left: 10rem;
+    line-height: 2rem;
+    padding-top: 2rem;
+}
+#sec-para-div{
+    overflow-y: scroll;
+    width: 48rem;
+    height: 17rem;
+    scrollbar-color: rgba(255,0,0,1);
+    overflow-x: none;
+    padding-right: 3rem;
+}
+#sec-para-div::-webkit-scrollbar{
+    width: 2px;
+
+    
+}
+#sec-para-div::-webkit-scrollbar-track{
+    background-color: rgba(192, 192, 192, 0.781);
+    height: 1rem;
+    
+}
+#sec-para-div::-webkit-scrollbar-thumb{
+    background-color: rgba(255,0,0,1);
+    min-height: 1rem!important;
+    height: 10px;
+
+}
+#sec-para-div::-webkit-scrollbar:horizontal{
+    overflow-x: scroll;
+}
+
+    /*-------------------------------------------------Second Section-----------------------------------------*/
+
+    /*-------------------------------------------------3rd section----------------------------------------*/
+  #view-all{  margin-top: 8rem;} 
+#viewall-font{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 45px;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-align: center;
+    padding-top: 3rem;
+    
+}
+#tele{
+    text-align: right;
+    
+}
+#image-tele{
+    margin-top: 0;
+    width: 25%;
+    height: 25%;
+}
+#talk{
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration: none;
+    color: rgba(255,0,0,1);
+    
+}
+#let{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: -8rem;
+}
+#broad-hr{
+    height: .8rem;
+    border: none;
+    width: 92%;
+   
+    background-color: rgba(255,0,0,1);
+}
+#broad-hr-div{
+    text-align: -webkit-right;
+    margin-top: 6.2rem;
+}
+  
+  /*-------------------------------------------------media quries-----------------------------------------*/
+  @media only screen and (max-width: 1024px) {
+    .banner-title{
+        margin-left: 7rem;
+        padding-top: 7rem;
+        font-size: 3rem;
+    }
+    .banner-img{
+        margin-left: 60%;
+        width: 300px;
+        height: 150px;
+    }
+    main{
+        margin-left: 6rem;
+    }
+    .works{
+        width: 400px;
+        height: 400px;
+        background-color:grey;
+    }
+    #sec-para-div{
+        
+        width: 30rem;
+        height: 17rem;
+        padding-right: 3rem;
+    }
+    #sec-para{   
+         margin-left: 10rem;
+        line-height: 1.6rem;
+        padding-top: 0.1rem;
+        font-size: 14px;
+    }
+    #sec-col-2 {
+        width: 45%;
+        
+        
+       }
+    
+  }
+  @media only screen and (max-width: 900px){
+    #sec-para-div{
+        
+        width: 24rem;
+        height: 17rem;
+        padding-right: 3rem;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    nav a {
+      display: none!important;
+    }
+    .logo{
+        margin-left:2rem ;
+    }
+    .logo>img{
+        width: 110px!important;
+    }
+    .menus{
+        margin-right: 2rem;
+    }
+    .banner-title{
+        margin-left: 2rem!important;
+        padding-top: 3rem;
+        font-size: 2rem!important;
+    }
+    .banner-img{
+        margin-left: 45%!important;
+        width: 230px;
+        height: 100px;
+    }
+    main{
+        margin-left: 1.5rem;
+    }
+    .works{
+        width: 400px;
+        height: 400px;
+        background-color:grey;
+    }
+    #sec-head{
+        font-size: 2rem;
+        margin-left: 2rem;
+        margin-top: -4rem;
+    }
+    span#develop{
+    
+        margin-left: 3rem;
+        font-weight: bolder;
+        font-size: 2.9rem;
+    }
+    
+    #sec-para-div{
+        width: 41rem;
+        height: 11rem;
+        padding-right: 3rem;
+    }
+    
+    #sec-para{       
+        margin-left: 6rem;
+        line-height: 1rem;
+        padding-top: 0.1rem;
+        font-size: 12px;
+   }
+   #second{
+    display: flex;
+    flex-direction: column;
+   }
+   #sec-col-2 {
+    width: -webkit-fill-available;
+    margin-top: -5rem;
+    height: 20rem;
+   }
+   #view-all{  margin-top: 5rem!important;} 
+   
+#viewall-font{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 45px;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-align: center;
+    padding-top: 3rem;
+    
+}
+#broad-hr-div{
+    text-align: -webkit-right;
+    margin-top: 6rem;
+}
+    
+  }
+  @media only screen and (max-width: 720px){
+    #sec-para-div{
+        width: 35rem;
+        height: 11rem;
+        padding-right: 3rem;
+    }
+  }
+  
+  @media only screen and (max-width: 620px){
+    #sec-para-div{
+        width: 30rem;
+        height: 11rem;
+        padding-right: 3rem;
+    }
+  }
+  @media only screen and (max-width: 545px){
+    .banner-title{
+        margin-left: 2rem!important;
+        padding-top: 4rem!important;
+        font-size: 1.5rem!important;
+    }
+    .banner-img{
+        margin-left: 45%!important;
+        width: 200px!important;
+        height: 90px!important;
+    }
+    .ourworkbanner{
+        margin-top: 5rem;
+        font-size: 2rem;
+    }
+    main{
+        margin-left: 3px;
+        margin-top: 0px;
+    }
+    .works{
+        width: 400px;
+        height: 400px;
+        background-color:grey;
+    }
+    
+    #sec-head{
+        font-size: 1.5rem;
+        margin-left: 2rem;
+        margin-top: -4rem;
+    }
+    span#develop{
+    
+        margin-left: 3rem;
+        font-weight: bolder;
+        font-size: 1.8rem;
+    }
+    
+    #sec-para-div{
+        
+        width: 25rem;
+        height: 11rem;
+        padding-right: 3rem;
+    }
+    
+    #sec-para{       
+        margin-left: 6rem;
+        line-height: 1rem;
+        padding-top: 0.1rem;
+        font-size: 10px;
+        margin-top: 0px;
+   }
+   #second{
+    display: flex;
+    flex-direction: column;
+   }
+   #sec-col-2 {
+    width: -webkit-fill-available;
+    margin-top: -5rem;
+   }
+  }
+  @media only screen and (max-width:500px){
+    
+    
+    #sec-para-div{
+        
+        width: 23rem;
+        height: 11rem;
+        padding-right: 3rem;
+    }
+    
+    #sec-para{       
+        margin-left: 6rem;
+        line-height: 1rem;
+        padding-top: 0.1rem;
+        font-size: 12px;
+        margin-top: 0px;
+   }
+   #second{
+    display: flex;
+    flex-direction: column;
+   }
+   #sec-col-2 {
+    width: -webkit-fill-available;
+    margin-top: -5rem;
+    height: auto;
+   }
+   .ourworkbanner{
+    
+    font-size: 1.5rem;
+}
+.works {
+    width: 360px;
+    height: 360px;
+    background-color: grey;
+}
+.works-name {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+}
+   #view-all{  margin-top: 1rem!important;}
+   #let {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: -4rem;
+}
+#viewall-font {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5rem;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-align: center;
+    padding-top: 3rem;
+}
+#broad-hr-div {
+    text-align: -webkit-right;
+    margin-top: 2rem;
+}
+#broad-hr {
+    height: 0.5rem;
+    border: none;
+    width: 92%;
+    background-color: rgba(255,0,0,1);
+}
+  }
+  @media only screen and (max-width:425px){
+    #sec-para-div{
+        
+        width: 20rem;
+        height: 11rem;
+        padding-right: 3rem;
+    }
+    #sec-para{       
+        margin-left: 6rem;
+        line-height: 0.9rem;
+        padding-top: 0.1rem;
+        font-size: 10px;
+        margin-top: 0px;
+   }
+   #sec-head{
+    font-size: 1.5rem!important;
+    margin-left: 2rem;
+    margin-top: -4rem;
+   }
+span#develop{
+
+    margin-left: 3rem;
+    font-weight: bolder;
+    font-size: 1.3rem!important;
+   }
+   #sec-col-2 {
+    width: -webkit-fill-available;
+    margin-top: -5rem;
+   }
+   #sec-col-2{
+    height: auto;
+ }
+ .ourworkbanner{
+    margin-top: 5rem;
+    font-size: 1.5rem;
+}
+.works {
+    width: 310px;
+    height: 310px;
+    background-color: grey;
+}
+   #view-all{  margin-top: -1rem!important;} 
+   #viewall-font{
+       font-family: 'Josefin Sans', sans-serif;
+       font-size: 1.5rem;
+       text-decoration: underline;
+       text-underline-offset: 1rem;
+       text-align: center;
+       padding-top: 3rem;
+       
+   }
+   #tele{
+       text-align: right;
+       
+   }
+   #image-tele{
+       margin-top: 0;
+       width: 25%;
+       height: 25%;
+   }
+   #talk{
+       font-family: 'Josefin Sans', sans-serif;
+       text-decoration: none;
+       color: rgba(255,0,0,1);
+       
+   }
+   #let{
+       text-align: center;
+       font-size: 1rem;
+       margin-top: -3rem;
+   }
+   #broad-hr{
+       height: .4rem;
+       border: none;
+       width: 92%;
+      
+       background-color: rgba(255,0,0,1);
+   }
+   #broad-hr-div{
+       text-align: -webkit-right;
+       margin-top: 1.6rem;
+   }
+  }
+  @media only screen and (max-width: 375px){
+    .banner-img{
+        margin-left: 45%!important;
+        width: 170px!important;
+        height: 90px!important;
+    }
+    main{
+        margin-left: 2px;
+        margin-top: 0px;
+    }
+    .works{
+        width: 300px;
+        height: 300px;
+        background-color:grey;
+    }
+    .works-name {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    .ourworkbanner{
+        margin-top: 5rem;
+        font-size: 1.5rem;
+    }
+    #sec-para-div{
+        
+        width: 17rem;
+        height: 8rem;
+        padding-right: 3rem;
+    }
+    #sec-col-2 {
+        width: -webkit-fill-available;
+        margin-top: -5rem;
+       }
+     #sec-col-2{
+        height: auto;
+     }
+       #view-all{  margin-top: -1rem!important;} 
+   #viewall-font{
+       font-family: 'Josefin Sans', sans-serif;
+       font-size: 1.5rem;
+       text-decoration: underline;
+       text-underline-offset: 1rem;
+       text-align: center;
+       padding-top: 3rem;
+       
+   }
+   #tele{
+       text-align: right;
+       
+   }
+   #image-tele{
+       margin-top: 0;
+       width: 25%;
+       height: 25%;
+   }
+   #talk{
+       font-family: 'Josefin Sans', sans-serif;
+       text-decoration: none;
+       color: rgba(255,0,0,1);
+       
+   }
+   #let{
+       text-align: center;
+       font-size: 1rem;
+       margin-top: -3rem;
+   }
+   #broad-hr{
+       height: .4rem;
+       border: none;
+       width: 92%;
+      
+       background-color: rgba(255,0,0,1);
+   }
+   #broad-hr-div{
+       text-align: -webkit-right;
+       margin-top: 1.6rem;
+   }
+  }
+  @media only screen and (max-width: 320px){
+    .banner-title{
+        margin-left: 2rem!important;
+        padding-top: 4rem!important;
+        font-size: 1rem!important;
+    }
+    .banner-img{
+        margin-left: 45%!important;
+        width: 170px!important;
+        height: 90px!important;
+    }
+    .ourworkbanner{
+        margin-top: 5rem;
+        font-size: 1.5rem;
+    }
+    
+    main{
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .works{
+        width: 300px;
+        height: 300px;
+        background-color:grey;
+    }
+    #sec-para-div{
+        
+        width: 15rem;
+        height: 8rem;
+        padding-right: 3rem;
+    }
+    
+    #sec-para{       
+        margin-left: 6rem;
+        line-height: 0.9rem;
+        padding-top: 0.1rem;
+        font-size: 10px;
+        margin-top: 0px;
+        
+   }
+   #sec-col-2 {
+    width: -webkit-fill-available;
+    margin-top: -5rem;
+   }
+  }
+ 
